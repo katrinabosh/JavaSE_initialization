@@ -17,10 +17,10 @@ public class SimpleVariableInitialization {
     static {
         getValue();
     }
-    public static String staticVariable2 = getValue(4);
+    public static String staticVariable2 = getValue();
 
     // обяъвление НЕ статической переменной
-    public String nonStaticVariable = getValue(5);
+    public String nonStaticVariable = getValue();
 
 
     // блок нестатической инициализации
@@ -30,7 +30,7 @@ public class SimpleVariableInitialization {
 
 
     public SimpleVariableInitialization() {
-        getValue(8);
+        getValue();
     }
 
     // блок нестатической инициализации
